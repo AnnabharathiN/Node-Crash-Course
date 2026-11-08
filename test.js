@@ -1,2 +1,2 @@
-git initconst name = 'Anna';
+const name = 'Anna';
 console.log(name);
