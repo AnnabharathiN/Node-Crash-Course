@@ -1,0 +1,115 @@
+My Node.js Journey
+Day 1: Installing Node
+I downloaded Node.js from the official site.
+I opened the terminal and typed node -v.
+A version number appeared, so it worked.
+I felt proud of such a small thing.
+Day 2: My first script
+I created a file called test.js.
+I wrote one console.log line.
+I ran it with the node command.
+My text appeared in the terminal.
+That was my first real program.
+Day 3: Variables and functions
+I practised const and let.
+I wrote a function that adds two numbers.
+I wrote another function that says hello.
+I called them from the terminal.
+Everything printed in the right order.
+Day 4: Modules
+Every file in Node is its own module.
+A variable in one file is invisible to another.
+To share code I use module.exports.
+To receive code I use require.
+This confused me for an hour.
+Then it suddenly made sense.
+Day 5: The file system
+Node has a built in module called fs.
+It can read files from my computer.
+It can write new files.
+It can rename files and delete them.
+Most of its functions are asynchronous.
+Node does not wait for the file.
+It runs the next line straight away.
+Later it calls my function with the result.
+That is why my last line printed first.
+Day 6: Streams
+A stream sends data in small chunks.
+It is like watching a video online.
+The video starts before it finishes loading.
+A read stream gives me data piece by piece.
+A write stream receives data piece by piece.
+The pipe method connects the two.
+Copying a big file takes two lines.
+The whole file never sits in memory.
+Day 7: A web server
+I built a server with the http module.
+It needed many lines for each request.
+Then I met Express.
+A route in Express is one line.
+I told it what to send back.
+It handled all the small details.
+Day 8: Middleware
+Middleware runs before the route.
+It can log every request.
+It can read the data from a form.
+It can serve CSS and images.
+It can stop a request that looks wrong.
+Day 9: Templates
+EJS lets me write HTML with JavaScript.
+I can loop through a list of posts.
+I can show a message only when there is an error.
+The server fills in the data.
+The browser receives plain HTML.
+Day 10: MongoDB
+My data now lives in the cloud.
+MongoDB Atlas stores it for me.
+Mongoose connects my app to the database.
+A schema describes what a document looks like.
+A model lets me create and read documents.
+I saved my first post on this day.
+Day 11: Validation
+A post must have at least twenty five characters.
+Mongoose checks this before saving.
+If it is too short, it throws an error.
+I show that error under the form.
+The text the user typed stays in the box.
+Day 12: Update and delete
+I added an edit page for each post.
+I added a delete button.
+Forms can only send GET and POST.
+So I used POST routes for both.
+Deleting a post also deletes its comments.
+Day 13: Comments
+Each comment belongs to one post.
+It stores the id of that post.
+The oldest comment appears first.
+Each post has its own comment form.
+The page finally looked like the wireframe.
+Day 14: Mistakes I made
+I forgot module.exports once.
+I wrote a comma where a dot belonged.
+I misspelled a variable name.
+I edited a copy of the project I was not running.
+I left the password placeholder in the connection string.
+Every error message taught me something.
+Day 15: Git and GitHub
+I created a repository for my project.
+I made a commit for every big step.
+I used a branch for each assignment.
+My history now tells the story of my work.
+I can go back and see how far I have come.
+Advice for beginners
+Type the code yourself.
+Run it often.
+Break it on purpose.
+Read the error message slowly.
+The file name and line number are your best clues.
+Keep every lesson on its own branch.
+Be patient with yourself.
+Every developer once stared at an error and felt lost.
+Node.js is not magic.
+It is a set of simple ideas.
+Files, modules, events, streams and requests.
+Once you see the pattern, the rest is practice.
+Thanks for reading and happy coding.
